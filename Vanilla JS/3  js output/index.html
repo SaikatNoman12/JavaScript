@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> js output </title>
+</head>
+<body>
+
+			
+	<!-- ==== JavaScript Display Possibilities ==== -->
+
+	<!-- ==== javascript can display data in different ways. ==== -->
+
+	<!-- ====
+	1.Writing into an HTML element, using "innerHTML"
+	2.Writing into the HTML output using "document.write()"
+	3.Writing into an alert box, using "window.alert()" or "alert()"
+	4.Writing into the browser console, using "console.log()"
+	==== -->
+
+
+
+
+	 					<!-- ==== 1st ==== -->
+
+	<!-- ==== Using "innerHTML" ==== -->
+
+	<!-- ==== Describe: The "innerHTML" is used to write something in HTML element.External & Internal can be 
+			  written in two ways. -->
+
+
+
+	<!-- ==== using "internal js" ==== -->
+
+	<h2 id="demo"></h2>
+	<!-- ==== internal js start ==== -->
+	<script>
+		document.getElementById('demo').innerHTML = "Hello JavaScript";
+	</script>
+	<!-- ==== internal  js end  ==== -->
+
+
+
+
+	<!-- ==== using "external js" ==== -->
+
+	<h2 id="demo1"></h2>
+	<!-- ==== external javaScript start ==== -->
+	<script src="app.js">
+
+	</script>
+	<!-- ==== external  js end  ==== -->
+
+
+
+
+
+
+							<!-- ==== 2nd ==== -->
+
+	<!-- ==== Using "document.write()" ==== -->
+
+	<!-- ==== We can used the "document.write()" to show text, without any HTML element. And after loading a page, if we go to browser console and type "document.write()" then  eerything in the page will deleted.
+	In this case the text inside "document.write()" will show. But  all the data on the  page will not be  deleted.Because the main controlling of the page belongs to someone else. ==== -->
+
+
+	<!-- ==== using intrnal js ==== -->
+
+	<h2 id="demo3">Document.write()</h2>
+	<!-- ==== internal JS start ==== -->
+	<script>
+		document.write(400 + 600 ," external js");
+	</script>
+	<!-- ==== internal JS  end  ==== -->
+
+
+
+
+
+	<!-- ==== using extrnal js ==== -->
+
+	<!-- ==== external js start ==== -->
+	<script src="app.js">
+		
+	</script>
+	<!-- ==== external js  end  ==== -->
+
+
+
+
+
+
+							<!-- ==== 3rd ==== -->
+
+	<!-- ==== Using "window.alert()"  or "alert()" ==== -->
+
+	<!-- ==== The function of "window.alert()" is when we visit any page. Then if the founder of the page wants to alert about any of the page. Then he will be able to inform the page visitor about his massage through "window.alert()". In this case just type " alert() " without  typing "window.alert()"  will 
+	work ==== -->
+
+
+	<!-- ==== using internal js ==== -->
+
+	<!-- ==== internal js start ==== -->
+	<script>
+		
+		window.alert(100+200);		 // --- writing "window.alert()" will work.
+
+		alert("hello i am Abdullah Al Nomaan");  	// --- just writing an "alert()" will work.
+
+	</script>
+	<!-- ==== internal js  end  ==== -->
+
+
+
+
+
+	<!-- ==== using external js ==== -->
+
+	<!-- external js start -->
+	<script src="app.js">
+		
+	</script>
+	<!-- external js  end  -->
+
+
+
+	
+
+</body>
+</html>

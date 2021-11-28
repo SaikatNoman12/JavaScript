@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> js where to </title>
+</head>
+<body>
+
+	<!-- ==== JavaScript code can be written in three palces. Example: 1.Inline JavaScript, 2.Internal JavaScript, 3.External JavaScript. ==== -->
+
+
+
+
+
+
+							<!-- ==== 1st ==== -->
+
+	<!-- ==== Using inline JavaScript ==== -->
+
+	<!-- ==== JavaScript code can be written HTML elemnet. It's called "Inline Javascript" ==== -->
+
+	<p id="demo" >Hello World!</p>
+
+	<button onclick="document.getElementById('demo').style.fontSize = '34px' "> Click me!( inline js)</button>	<!-- It's called "Inline JavaScript" -->
+
+
+
+
+
+
+							<!-- ==== 2nd ==== -->
+	<!-- ==== Using internal JavaScript ==== -->
+
+	<!-- ==== The code that is written in JavaScript inside the script tag at the  and of the body  tag & head tag. 
+		 It's called "internal JavaScript". and In this case  the HTML  Event Atribute is used in the HTML element.
+		 And fnction() are used in "internal javaScrip". The script tag written by multiple time. ==== -->
+
+
+
+		 <p  id="demo1">Hello my freind</p>
+
+		 <button onclick="internalss()">click me( internal js )</button>
+
+
+
+	<!-- ==== internal JavaScript start ==== -->
+	<script>
+
+		function internalss(){
+		 	document.getElementById('demo1').style.fontSize = '26px';
+		 	document.getElementById('demo1').style.color = " blue ";
+		 	document.getElementById('demo1').innerHTML = "Hello my freind .How are you.";
+		 };
+
+	</script>
+	<!-- ==== internal JavaScri end ==== -->
+
+
+
+
+
+
+							<!-- ==== 3rd ==== -->
+
+	<!-- ==== Using external JavaScript ==== -->
+
+	<!-- ==== JavaScript code can be written another text document file. It's called "External JavaScript".In this 
+		 case ".js"  extension is used at the end after  the name of the text file. and In this case the HTML 
+		 Event Atribute  is used in the  HTML element.  And fnction() are  used in "external Javascript" text
+		 document. The script tag written by multiple time. ==== -->
+
+
+
+
+	<p id="demo2">External JavaScript</p>
+
+	<button onclick="FunctionName()">Click me ( ex js )</button>
+
+	
+	<!-- ==== external javascript start ==== -->
+	<script src="app.js">
+		
+	</script>
+	<!-- ==== external JavaScript end ==== -->
+
+</body>
+</html>
