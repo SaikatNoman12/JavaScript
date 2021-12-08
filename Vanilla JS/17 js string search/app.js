@@ -7,7 +7,7 @@ let x = "Noman Rahim Karim Rahim Helal 'Asraful'";
 
 console.log(x.indexOf("Rahim"));        // return index number 6
 
-console.log(x.indexOf("Karim" , 11));   // return index number 12. Start cutting First 11 digit  
+console.log(x.indexOf("Karim" , 11));   // return index number 12. Cutting First 11 digit  
 
 console.log(x.indexOf("Kalia"));        // return index number -1
 
@@ -31,7 +31,7 @@ let z = "Abul Kasem Abul Noman Auli Abul Nadim";
 
 console.log(z.lastIndexOf("Abul" , 10));     // return index number 0
 
-console.log(z.lastIndexOf("Abul" , 20));     // return index number 11. Start cutting Last 20 digit
+console.log(z.lastIndexOf("Abul" , 20));     // return index number 11. Cutting Last 20 digit
 
 
 
@@ -73,7 +73,7 @@ console.log(b.includes("Nadim"));       // returm true
 console.log(b.includes("Faruk"));       // returm false
 
 
-console.log(b.includes("Nadim" , 13));  // returm true. start cutting Fast 13 digit.
+console.log(b.includes("Nadim" , 13));  // returm true. Cutting Fast 13 digit.
 
 
 
@@ -86,9 +86,9 @@ let c = "Noman is a good boy.Noman is a bad boy.";
 
 console.log(c.startsWith("Noman"));         // return true 
 
-console.log(c.startsWith("Noman" , 21));    // return false. Start cutting First 20 digit.
+console.log(c.startsWith("Noman" , 21));    // return false. Cutting First 20 digit.
 
-console.log(c.startsWith("Noman" , 20));    // return true. Start cutting First 20 digit.
+console.log(c.startsWith("Noman" , 20));    // return true. Cutting First 20 digit.
 
 
 
@@ -101,9 +101,9 @@ let d = "Noamn is a gaood boy .Noman is a bad boy";
 
 console.log(d.endsWith("boy"));         // return true
 
-console.log(d.endsWith("boy" ,20));     // return true. Start cutting Last 20 digit.
+console.log(d.endsWith("boy" ,20));     // return true. Cutting Last 20 digit.
 
-console.log(d.endsWith("boy" , 10));     // return false. Start cutting Last 20 digit.
+console.log(d.endsWith("boy" , 10));     // return false. Cutting Last 20 digit.
 
 
 
