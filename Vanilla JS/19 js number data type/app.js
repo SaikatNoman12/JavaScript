@@ -146,6 +146,66 @@ console.log(isNaN(letter));    // return true. Because it is String.
 
 
 
+// Infinity:====
+console.log("Infinity:");
+
+let num3 = 2;
+
+let num4 = 0;
+
+console.log(num3 / num4);           // return infinity. Data type number.
+
+
+
+
+// Hexadecimal Number:====
+console.log("Hexadecimal Number:");
+
+let num5 = 0xff;        // this is hexadecimal number .because it's number started by 0x .
+
+console.log(num5);       // return 0xff. data type number.
+
+
+
+
+//  .toString() method:====
+console.log(".toString() method:");
+
+let num6 = 32;
+
+console.log(num6.toString(10));     // return 32. Convert decimal number in this variable num6. Decimal number base = 10.
+console.log(num6.toString(32));     // return decimal base number.
+
+console.log(num6.toString(16));     // return 20. Convert hexadecimal number in this variable num6. Hexadecimal number base = 16
+
+console.log(num6.toString(8));      // return 40. Convert octal number in this variable num6. Octal number base = 8
+
+console.log(num6.toString(2));      // return 100000. Convert binary number in this variable num6. Binary number base = 2.
+
+
+
+
+//  Number can be Object:====
+console.log("Number can be object:");
+
+let num7 = 12345;           // data type number.
+
+let num8 = new Number(12345);   // data type object;
+
+let num9 = new Number(12345);   // data type object;
+
+console.log(num8);          // return {12345}; Data type object.
+
+console.log(num7 == num8);      // return true . Because this value is number.
+
+console.log(num7 === num8);     // return false .Because this value is number but this data type is not a number . num7 data type is number & num8 data type is object.
+
+
+
+console.log(num8 == num9);       // always return false. because double equale (==) do not compare the double object.
+
+console.log(num8 === num9);     // // always return false. because triple equale (===) do not compare the double object.
+
 
 
 
