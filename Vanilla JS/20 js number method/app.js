@@ -42,7 +42,7 @@ console.log(typeof (num1.toExponential()));    // return 9.656e+13 . data type s
 /* float number */
 console.log(num2.toExponential(3));     // return 9.650e+0 . data type string. when the number is float.
 
-console.log(num2.toExponential(6));     // return 9.656000e+0 . data type string. when the number is float.
+console.log(num2.toExponential(6));     // return 9.650400e+0 . data type string. when the number is float.
 
 console.log(num2.toExponential());      // return 9.656e+0 . data type string. when the number is float.
 
