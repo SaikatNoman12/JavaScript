@@ -333,7 +333,13 @@ console.log(x.NaN);       // return undefined. data type undefined.
 
 
 
+/***
 
+For a complete Number reference, visit w3 school:
+
+Complete JavaScript Number Reference.
+
+***/
 
 
 
