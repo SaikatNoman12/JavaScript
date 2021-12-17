@@ -252,11 +252,86 @@ console.log(j[3]);      // rerturn undefined. data type undefined.
 
 
 
+// Associative Arrays:====
+console.log("Associative Arrays:");
+
+let ff = [];        // blank array.
+
+ff["First name"] = "Abdullah Al Nomman";
+
+ff["Age"] = 32;
+
+ff["Country"] = "Bangladesh";
+
+console.log(ff);        // return [First name: 'Abdullah Al Nomman', Age: 32, Country: 'Bangladesh'] . but this is a object. data type object. and length 0.
+
+console.log(ff.length);     // return length 0. If you writing an element in a blank array, You must use index number.
+
+
+
+
+// The Difference Between Arrays and Objects:====
+console.log("The Difference Between Arrays and Objects:");
+
+// 1. In JavaScript, arrays use numbered indexes.  
+
+// 2. In JavaScript, objects use named indexes.
+
+
+
+
+// When to Use Arrays. When to use Objects:====
+console.log("When to Use Arrays. When to use Objects:");
+
+// 1. JavaScript does not support Associative arrays.
+
+// 2. You should use objects when you want the element names to be Strings (text).
+
+// 3. You should use arrays when you want the element names to be Numbers.
+
+
+
+
+// JavaScript new Array():====
+console.log("JavaScript new Array():");
+
+let L = [1, 2, 3, 4];       // open syntax. All time use the open syntax array.
+
+let l_ = new Array(1, 2, 3, 4);     // new keyword array. Avoid this array.
+
+console.log(l_);        // return [1, 2, 3, 4]. length 4. Data type object. Js excepted this array. But avoid this array
+
+
+let r_ = new Array(40);     // avoid this array.
+
+console.log(r_)     // return [empty × 40]. Arrays empty means Undefined. Unexcepted array. Length 40. Data type object. Avoid this array.
+
+
+
+
+// Js how to Recognize an Array:====
+console.log("How to Recognize an array:");
+
+
+// Solution - 1=
+let g = [1, 2, 3, 4, 5];    // this is an array. but data type object.
+
+console.log(Array.isArray(g));     // return true. this is a array.
+
+
+let s_ = {name:"noma", age:"20"};   // this is an object. data type object.
+
+console.log(Array.isArray(s_));      // return false. this not an array.s
+
+
+// solution - 2=
+let u_ = [1, 3, 4, 6];
+
+console.log(u_ instanceof Array);   // return true. but this an array.
 
 
 
 
 
 
-
-
+ 
