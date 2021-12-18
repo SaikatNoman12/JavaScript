@@ -327,7 +327,7 @@ console.log(Array.isArray(s_));      // return false. this not an array.s
 // solution - 2=
 let u_ = [1, 3, 4, 6];
 
-console.log(u_ instanceof Array);   // return true. but this an array.
+console.log(u_ instanceof Array);   // return true. this this is a array. instanceof is a operator.
 
 
 
