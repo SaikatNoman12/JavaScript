@@ -80,7 +80,7 @@ e.sort(function(a, b){
 
 // [2(b) - 100(a) = -98 = negative]. Negative means false. (a < b). Then [800(b) - 100(a) = 700 = positive]. Positive means true. True means (a > b).
 
-console.log(e);        // return  ['1000', '800', '100', '40', '20', '7', '2', '1']. return b - a menas reverse.
+console.log(e);        // return  ['1000', '800', '100', '40', '20', '7', '2', '1']. return b - a means reverse.
 
 
 
