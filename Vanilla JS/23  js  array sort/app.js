@@ -62,7 +62,6 @@ console.log("sort() method in use complex function=");
 // show lower to heighr number. uses conditon a - b= 
 let w = [100, 2, 1, 7, 40, 20, 800, 1000];
 
-
 w.sort(function(a, b){
     return a - b;           // use sort method in complex function. print lower to higher number. return a - b means lower to heighr number.
 });
