@@ -92,7 +92,7 @@ let r = [20, 50 , 4, 30, 2, 10];
 
 r.sort(function(a,b){
     return 0.5 - Math.random();         // math.random() means 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1 .
-})
+});
 
 console.log(r);     // return [20, 50 , 4, 30, 2, 10] 1st reload. [20, 50 , 4, 30, 2, 10]. 2nd reload [20, 50, 4, 2, 30, 10]. In this way, arrays number will change with each reload.
 
@@ -112,7 +112,7 @@ let t = [3, 4, 1, 7, 30, 10];
 
 t.sort(function(a, b){
     return a - b;       // lowest to highest number. this condition you use to return lowest to highest number.
-})
+});
 
 console.log(t);     // return [1, 3, 4, 7, 10, 30]. lowest to highest number.
 
@@ -135,7 +135,7 @@ let o = [30, 10, 100, 50, 40];
 
 o.sort(function(a, b){
     return b - a;       //lowest to highest number. this condition you use to return highest to lowest number.
-})
+});
 
 console.log(o);     // return [100, 50, 40, 30, 10]. highest to lowest. 
 
