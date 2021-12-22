@@ -71,7 +71,7 @@ w.sort(function(a, b){
 console.log(w);      // return [1, 2, 7, 20, 40, 100, 800, 1000]. data type object
 
 
-// show heighr to lower number. uses condtion b - a=
+// show heigher to lower number. uses condtion b - a=
 let e = ["100", "2", "1", "7", "40", "20", "800", "1000"];
 
 e.sort(function(a, b){
