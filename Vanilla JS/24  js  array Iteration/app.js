@@ -15,8 +15,7 @@ function myFunction(value , index, array){
     console.log(index);         // return array index number. data type number
     console.log(value);         // return a list  nom mahedi rahim feni . data type string.
     console.log(array);         // return array. data tyoe object
-    console.log("----------")
-
+    console.log("----------");
 };
 /*  return 
 0       // value of index. data type number.
