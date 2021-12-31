@@ -6,7 +6,7 @@ console.log("js array const")
 /*
 ---- topic ----
 const(13), const variable can not be ressigend(33), Array can not const(47),
-const variable value must be assigned(74), Const Block Scope(89).
+const variable value must be assigned in same line(74), Const Block Scope(89).
 
 */
 
@@ -71,7 +71,7 @@ It does not define a constant value. It defines a constant reference to a value.
 
 
 
-// const variable value must be assigned:
+// const variable value must be assigned in same line:
 console.log("const variaable value must be assigned:");
 
 // correct const variavle. and return corect value.
