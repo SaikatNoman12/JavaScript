@@ -11,7 +11,7 @@
     console.warn();
 
 
-    // this is write serially;
+    // this is write serially. This is send console execution time;
     console.time('sameText');
 
     //another console;
