@@ -1,6 +1,6 @@
 # JavaScript Console
 
-## All js console:
+## JavaScript all console method:
 
     console.log();
 
