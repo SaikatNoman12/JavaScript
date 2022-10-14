@@ -23,7 +23,7 @@ numArr.sort((a, b) => {
     return a - b;
 })
 const secondLargest = numArr.at(-2);
-// console.log(secondLargest);
+console.log(secondLargest);  // output: 2000;
 
 
 
