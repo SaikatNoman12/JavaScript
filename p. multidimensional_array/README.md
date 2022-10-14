@@ -11,3 +11,18 @@
         ['Dipika', 37, 'IBA', 'Sr. Actor']
 
     ];
+
+
+## IIFE use argument & parameter
+
+### Example:
+
+    const myFunction = (parameter1) =>
+        ( function(parmName) 
+
+            // code...
+
+        )(parameter1); 
+
+    myFunction(argument);
+

@@ -10,7 +10,7 @@ const array = [
     ['Dipika', 37, 'IBA', 'Sr. Actor']
 ]
 
-const arrayDataShow = (array) =>
+const arrayDataShow = (array1) =>
     (function (myArr) {
         const table = document.querySelector('#table');
 
@@ -28,9 +28,6 @@ const arrayDataShow = (array) =>
             table.appendChild(createTr);
         }
 
-    })(array);
+    })(array1);
 
 arrayDataShow(array);
-
-
-
