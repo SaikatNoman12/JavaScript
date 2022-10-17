@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Basic events</title>
+
+    <style>
+        button {
+            font-size: 30px;
+            font-family: monospace;
+            font-weight: 600;
+            padding: 15px 30px;
+        }
+
+        p {
+            font-size: 26px;
+            font-weight: 700;
+            font-family: monospace;
+        }
+    </style>
+
+</head>
+
+<body onload="load()">
+
+    <!-- use onload event -->
+    <p id="onLoad">Loading...</p>
+
+    <br>
+    <br>
+    <br>
+
+    <!-- use onclick event -->
+    <button type="button" onclick="clickMyEvent()">Click</button>
+    <p id="click1">Do not click. Use onClick</p>
+
+    <br>
+    <br>
+    <br>
+
+
+    <!-- use ondblclick event -->
+    <button type="button" ondblclick="doubleClickEvent()">Double Click</button>
+    <p id="click2">Do not click. Use ondblclick.</p>
+
+    <br>
+    <br>
+    <br>
+
+
+    <!-- use onmouseover event. same to onmouseenter -->
+    <button type="button" onmouseover="mouserOver()">Mouse Over</button>
+    <p id="mouseOver">Do not mouse over. Use mouseover.</p>
+
+
+    <br>
+    <br>
+    <br>
+
+    <!-- use onmouseenter event. same to onmouseover event -->
+    <button type="button" onmouseenter="mouseEnter()">Mouse enter</button>
+    <p id="mouseEnter">Do not mouse enter. Use mouseenter.</p>
+
+
+    <br>
+    <br>
+    <br>
+
+    <!-- use mousedown event. same to onclick event -->
+    <button type="button" onmousedown="mouseDown()">Mouse down</button>
+    <p id="mousedown">Do not mouse down. Use mousedown. </p>
+
+
+    <br>
+    <br>
+    <br>
+
+    <!-- use onmouseup event -->
+    <button type="button" onmouseup="mouseUp()">Mouse up</button>
+    <p id="mouseoUp">Do no mouse up. Use mouseup</p>
+
+
+    <br>
+    <br>
+    <br>
+
+    <!-- use onkeypress event -->
+    <button type="button" onkeypress="keyPress()">Key press</button>
+    <p id="keyPress">Do not work keypress event!</p>
+
+
+    <br>
+    <br>
+    <br>
+
+    <!-- use onkeydown event -->
+    <button type="button" onkeydown="keyDown()">Key down</button>
+    <p id="keyDown">Do not key down!</p>
+
+
+    <br>
+    <br>
+    <br>
+
+    <!-- use onkeyup event -->
+    <button type="button" onkeyup="keyUp()">Key up</button>
+    <p id="keyUp">Do not key up!</p>
+
+
+    <br><br><br>
+
+
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+    <!-- custom js link -->
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
